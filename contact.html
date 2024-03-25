@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Meown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Meown</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <ul>
+        <li>Email: contact@meown.com</li>
+        <li>Mailing Address: 123 Cat Street, Meowtown</li>
+        <li>Phone Number: 123-456-7890</li>
+      </ul>
+      <button id="backBtn">Back to Blog</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Meown. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Handle back button click
+      $("#backBtn").click(function() {
+        window.history.back();
+      });
+    });
+  </script>
+</body>
+</html>
